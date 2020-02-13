@@ -157,7 +157,7 @@ func (ind *Index) MediaFile(m *MediaFile, o IndexOptions, originalName string) I
 				}
 
 				if len(metaData.UniqueID) > 15 {
-					log.Debugf("index: file uuid \"%s\"", metaData.UniqueID)
+					log.Debugf("Index: file uuid \"%s\"", metaData.UniqueID)
 
 					file.FileUUID = metaData.UniqueID
 				}
